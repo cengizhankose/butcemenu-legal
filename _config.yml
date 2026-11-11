@@ -1,0 +1,8 @@
+title: Bütçe Menü
+description: Haftalık bütçeye göre akşam yemeği planı. Gizlilik, koşullar ve destek.
+lang: tr
+theme: jekyll-theme-minimal
+baseurl: /butcemenu-legal
+url: https://cengizhankose.github.io
+exclude:
+  - README.md
