@@ -1,66 +1,68 @@
 ---
-title: Gizlilik Politikası
+title: "Gizlilik Politikası"
 lang: tr
 source: docs/legal
 ---
 
 # Gizlilik Politikası
 
-Son güncelleme: 11.11.2026
+Son güncelleme: 13.11.2026
 
-Bu politika, Bütçe Menü iOS uygulamasının ("uygulama") hangi verileri neden işlediğini açıklar. Veri sorumlusu: Cengizhan Köse. İletişim: [kose651@gmail.com](mailto:kose651@gmail.com)
+Bu politika, Kazan uygulamasının (Uygulama) hangi verileri topladığını, nasıl kullandığını, kimlerle paylaştığını, ne kadar sakladığını ve verilerini nasıl silebileceğini anlatır. Uygulamayı geliştiren ve verilerinden sorumlu olan kişi Cengizhan Köse'dir (gerçek kişi; bağımsız geliştirici). KVKK kapsamındaki ayrıntılı bilgilendirme için KVKK Aydınlatma Metni'ne bak. Bu politikanın İngilizcesi Uygulama içinde Privacy Policy (EN) başlığıyla yer alır.
 
 ## Kısaca
 
-- Hesap yok. Ad, e-posta, telefon numarası istemiyoruz.
-- Konum izni istemiyoruz. Şehir ve ilçeyi listeden siz seçersiniz.
-- Reklam takibi yapmıyoruz; reklam kimliğine (IDFA) erişmiyoruz, App Tracking Transparency izni istemiyoruz. Uygulamada reklam yok.
-- Verilerinizi satmıyoruz.
+- Hesap yok. Adını, e-postanı, telefonunu sormayız.
+- Konum izni istemeyiz; il, ilçe ve şubeyi sen seçersin.
+- Sağlık, alerji gibi hassas veriler toplamayız.
+- Kullanım istatistiği yalnızca sen izin verirsen gönderilir; izin varsayılan olarak kapalıdır ve Ayarlar'dan istediğin an kapatabilirsin.
+- Seni başka şirketlerin uygulama ve sitelerinde takip etmeyiz, reklam kimliğini (IDFA) toplamayız, verini satmayız. Uygulamada reklam yok.
+- Ayarlar > Gizlilik > Verilerimi sil ile sunucudaki tüm verilerini tek dokunuşla silebilirsin.
 
-## Hangi verileri işliyoruz
+## 1. Topladığımız veriler ve kullanım amaçları
 
-| Veri | Neden | Nerede |
-|---|---|---|
-| **Anonim kurulum kimliği** (her kurulumda rastgele üretilen kimlik) | Plan senkronu, analitik ve abonelik durumunu aynı kuruluma bağlamak | Cihazınızda; aşağıdaki hizmet sağlayıcılarda |
-| **Plan verileri**: pişireceğiniz akşamlar, kişi sayısı, seçtiğiniz marketler, haftalık bütçe, seçtiğiniz şehir/ilçe, oluşan menü ve alışveriş listesi | Planı oluşturmak, saklamak ve cihazlar arasında kaybolmamasını sağlamak | Cihazınızda; anonim kurulum kimliğiyle Convex sunucularında |
-| **Kullanım analitiği**: hangi ekranların açıldığı, hangi düğmelere dokunulduğu gibi olaylar; cihaz modeli, iOS ve uygulama sürümü | Uygulamanın nasıl kullanıldığını anlamak ve iyileştirmek | PostHog (AB bulutu) |
-| **Satın alma durumu**: abonelik türü, deneme/aktif/bitmiş durumu, işlem bilgileri | Premium özellikleri açmak, aboneliği doğrulamak | Apple ve Adapty |
+- Kurulum kimliği: Uygulama ilk açıldığında cihazında rastgele üretilen bir kimlik. Adın veya iletişim bilgin buna bağlanmaz, ancak cihazındaki kurulumu ayırt ettiği için kişisel veri sayılır. Planlarını sunucuda saklamak, aboneliğini tanımak ve (izin verirsen) istatistikleri birleştirmek için kullanılır.
+- Plan tercihleri: kişi sayısı, yemek yapılacak akşamlar, haftalık bütçe, seçilen marketler (zincir, şube, il ve ilçe; varsa şubenin OpenStreetMap kimliği), varsa evde olan malzemeler ve semt pazarı tercihi. Menüyü kurmak ve fiyatlandırmak için kullanılır.
+- Plan ve liste verileri: planın haftası, yemekler ve değişiklikler, seçilen market, market başına toplamlar, listede işaretlenen kalemler, alışveriş kanalı, oluşturma ve güncelleme zamanları. Planın kaybolmasın ve Uygulamayı yeniden kurduğunda geri gelsin diye otomatik kaydedilir.
+- Kullanım istatistiği (yalnızca izinle): Uygulamadaki adımların adları ve özellikleri (örneğin kişi sayısı, bütçe ve plan toplamı, seçilen market zinciri, ödeme ekranı adımları), kurulum kimliği, uygulama sürümü, işletim sistemi, Premium durumu ve Uygulamayı bir kampanya bağlantısıyla açtıysan ilk kampanya bilgisi (utm_source, utm_medium, utm_campaign, code). Hangi adımların zorlandığını görüp Uygulamayı iyileştirmek için kullanılır.
+- Abonelik verileri (yalnızca satın alma yaparsan): kurulum kimliği, Apple işlem kimlikleri ve makbuz bilgisi, ürün, deneme ve abonelik durumu, tarihler, fiyat ve para birimi. Premium'u açmak, doğrulamak ve geri yüklemek için kullanılır.
 
-Ödeme Apple tarafından alınır. Kart bilgilerinizi ve Apple ID'nizi görmüyoruz.
+Kullanım istatistiğine izin vermediğin sürece hiçbir olay gönderilmez ve cihazında biriktirilmez; kampanya bilgisi de cihazından çıkmaz.
 
-Uygulamada alerji, sağlık ya da başka özel nitelikli kişisel veri istenmez.
+## 2. İzin neden varsayılan olarak kapalı
 
-## Hizmet sağlayıcılar
+İstatistiklerimiz harici bir hizmet sağlayıcıya (PostHog) gönderildiği ve kalıcı bir kurulum kimliği taşıdığı için açık rızana dayanıyoruz. Bu yüzden izin ilk açılışta kapalıdır, "İzin ver" ve "Hayır" seçenekleri eşit ağırlıkta sunulur ve izni Ayarlar'dan istediğin an geri alabilirsin. Bu yaklaşım KVKK Kurulu'nun Çerez Uygulamaları Hakkında Rehberi'ndeki ölçütlere dayanır.
 
-- **Convex**: plan verilerinin anonim olarak saklandığı arka uç.
-- **PostHog** (AB bulutu): kullanım analitiği.
-- **Adapty**: abonelik ve ödeme duvarı yönetimi; Apple'ın satın alma bilgisini doğrular.
-- **Apple**: App Store üzerinden ödeme ve abonelik.
+## 3. Paylaştığımız hizmet sağlayıcılar
 
-Bu sağlayıcılar verileri yalnızca bizim adımıza, yukarıdaki amaçlarla işler. Sunucuları Türkiye dışında (AB ve diğer ülkelerde) bulunabilir; bu nedenle veriler yurt dışına aktarılabilir.
+- Convex, Inc. (ABD): veritabanı ve sunucu. Plan verilerin Convex'in Avrupa Birliği bölgesinde (İrlanda) tutulur.
+- PostHog, Inc. (ABD): ürün analitiği, yalnızca izinle. PostHog'un Avrupa Birliği bulutu (Frankfurt, Almanya) kullanılır; ham IP adreslerinin olaylarla saklanmaması ayarı açıktır.
+- Adapty Tech Inc. (ABD): abonelik altyapısı. Sunucuları ABD'dedir. IP adresi ve reklam kimliği (IDFA) toplama kapalıdır; abonelik olaylarının başka analitik hizmetlerine iletilmesi kapalıdır.
+- Apple: ödemeyi Apple alır. Kart bilgilerini hiçbir zaman görmeyiz.
 
-## Hukuki sebep
+Bu hizmet sağlayıcılar verileri yalnızca bize hizmet vermek için ve bizim talimatlarımızla işler. Sunucuları Türkiye dışında olduğu için verilerin Avrupa Birliği'ne ve ABD'ye aktarılır.
 
-Verileri, uygulamanın çalışması ve satın aldığınız hizmetin sunulması (sözleşmenin ifası) ile uygulamayı iyileştirme konusundaki meşru menfaatimiz kapsamında işleriz (6698 sayılı KVKK m. 5/2-c ve 5/2-f).
+## 4. Saklama ve silme
 
-## Saklama süresi
+- Cihazındaki veriler Uygulamayı silene ya da Verilerimi sil'e basana kadar kalır.
+- Sunucudaki plan ve liste verileri son güncellemeden 12 ay sonra otomatik olarak silinir.
+- Kullanım istatistikleri PostHog'da 1 yıl saklanır, süre dolunca silinir.
+- Abonelik kaydı, aboneliğin doğrulanması gerektiği sürece Adapty'de tutulur. Satın almanın kendisi Apple'da kalır.
 
-Plan verileri ve analitik olaylar, uygulamayı kullandığınız sürece ya da silinmesini isteyene kadar saklanır. Satın alma kayıtları yasal yükümlülükler için gereken süre boyunca saklanabilir.
+## 5. Verilerini silme ve izni geri alma
 
-## Haklarınız ve veri silme
+- Ayarlar > Gizlilik > Verilerimi sil: sunucudaki planlarını, kullanım istatistiklerini ve abonelik kaydını siler; cihazındaki planı ve tercihleri sıfırlar ve yeni bir kurulum kimliği oluşturur. Aboneliğin Apple'da devam eder; iptal etmek için iPhone'unda Ayarlar > adın > Abonelikler'e git. Aktif bir aboneliği "Satın alımları geri yükle" ile yeniden bağlayabilirsin.
+- Kullanım istatistiği iznini Ayarlar > Gizlilik bölümünden istediğin an kapatabilirsin. Kapattığında yeni olay gönderilmez ve cihazında bekleyen olaylar silinir.
+- Başka bir talebin için me@cengizhankose.com adresine yaz ve Ayarlar ekranının altındaki destek kimliğini ekle. En geç 30 gün içinde ücretsiz sonuçlandırırız.
 
-KVKK m. 11 kapsamında verilerinize erişme, düzeltme ve silinmesini isteme haklarınız vardır.
+## 6. Güvenlik
 
-- Uygulamayı silmek, cihazdaki plan ve ayarları siler.
-- Sunucudaki anonim kayıtların silinmesi için [kose651@gmail.com](mailto:kose651@gmail.com) adresine yazın. Hesap olmadığı için kaydınızı bulmak üzere sizden ek bilgi isteyebiliriz. Talepleri en geç 30 gün içinde yanıtlarız.
-- Aboneliği iPhone'da **Ayarlar > [adınız] > Abonelikler** bölümünden iptal edebilirsiniz. Uygulamayı silmek aboneliği iptal etmez.
+Veriler hizmet sağlayıcılara şifreli bağlantı (HTTPS) üzerinden gönderilir. Sunucudaki verilere yalnızca geliştirici erişir. Sunucu, bir kayda yalnızca o kaydın kurulum kimliğiyle ulaşılmasına izin verir.
 
-## Çocuklar
+## 7. Çocuklar
 
-Uygulama çocuklara yönelik değildir ve bilerek 13 yaş altı çocuklardan veri toplamaz.
+Uygulama 13 yaşından küçük çocuklara yönelik değildir ve onlardan bilerek veri toplamayız. Böyle bir verinin bize ulaştığını düşünüyorsan me@cengizhankose.com adresine yaz; sileriz.
 
-## Değişiklikler
+## 8. Değişiklikler ve iletişim
 
-Bu politikayı güncellersek bu sayfadaki tarihi değiştiririz.
-
-[English version]({{ '/privacy/en/' | relative_url }}) · [Kullanım Koşulları]({{ '/terms/' | relative_url }}) · [Destek]({{ '/support/' | relative_url }})
+Bu politikayı değiştirirsek güncel sürümü Uygulamada ve App Store sayfasındaki bağlantıda, en üstteki tarihi güncelleyerek yayımlarız. Verilerini yeni bir amaçla işleyeceksek bunu işlemeye başlamadan önce sana ayrıca bildiririz. Sorular için: Cengizhan Köse, me@cengizhankose.com.
