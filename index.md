@@ -1,15 +1,16 @@
 ---
-title: Bütçe Menü
+title: Kazan
+lang: tr
 ---
 
-# Bütçe Menü
+# Kazan
 
-Bütçe Menü (çalışma adı), haftalık bütçenize göre akşam yemeği planı kuran bir iOS uygulamasıdır. Seçtiğiniz akşamlar için Türk sofrasına uygun bir menü hazırlar ve aynı menüyü seçtiğiniz marketlerde fiyatlar.
+Kazan, seçtiğin akşamlar, kişi sayısı, marketler ve haftalık bütçene göre akşam yemeği menüsü kuran, menüyü seçtiğin her markette fiyatlayan ve alışveriş listesi hazırlayan bir iOS uygulamasıdır. Geliştirici: Cengizhan Köse.
 
-Bütçe Menü (working name) is an iOS app that builds a weekly dinner plan within your budget and prices the same menu at the supermarkets you choose.
+- [Gizlilik Politikası](privacy/)
+- [KVKK Aydınlatma Metni](kvkk/)
+- [Kullanım Koşulları](terms/)
+- [Destek](support/)
+- [Privacy Policy (English)](privacy/en/)
 
-- [Gizlilik Politikası]({{ '/privacy/' | relative_url }}) · [Privacy Policy (English)]({{ '/privacy/en/' | relative_url }})
-- [Kullanım Koşulları / Terms of Use (EULA)]({{ '/terms/' | relative_url }})
-- [Destek / Support]({{ '/support/' | relative_url }})
-
-İletişim / Contact: [kose651@gmail.com](mailto:kose651@gmail.com)
+İletişim: me@cengizhankose.com

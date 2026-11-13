@@ -1,6 +1,6 @@
 # butcemenu-legal
 
-Public legal and support pages for the Bütçe Menü iOS app, served by GitHub Pages (Jekyll):
+Public legal and support pages for the Kazan iOS app, served by GitHub Pages (Jekyll):
 
 - https://cengizhankose.github.io/butcemenu-legal/privacy/ (TR)
 - https://cengizhankose.github.io/butcemenu-legal/privacy/en/ (EN)
